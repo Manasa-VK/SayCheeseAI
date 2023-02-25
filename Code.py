@@ -53,7 +53,7 @@ def cap_img():
 def run():
 
     
-    text1= reg_voice(5,'kn-IN')
+    text1= reg_voice(5,'ko-KR')
     
     T2= te().translate(text1,dest='te')
     T3= te().translate(text1,dest='en')
